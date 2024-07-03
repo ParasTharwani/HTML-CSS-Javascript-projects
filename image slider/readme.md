@@ -1,0 +1,1 @@
+https://paras-tharwani-image-slider.netlify.app/
