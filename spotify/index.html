@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Spotify - Your Favourite Tracks</title>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="images/spotifylogo.png" alt="">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="song-list">
+            <h1>New Releases For You</h1>
+            <div class="songitemcontainer">
+                <div class="songItem">
+                    <img src="images/cover1.jpg" alt="">
+                    <span class="songName">Star Boy</span>
+                    <span class="songlistplay"><span class="timestamp">05:45 <i id="0"
+                                class="fa-regular songitemplay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="images/cover1.jpg" alt="">
+                    <span class="songName">Star Boy</span>
+                    <span class="songlistplay"><span class="timestamp">05:45 <i id="1"
+                                class="fa-regular songitemplay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="images/cover1.jpg" alt="">
+                    <span class="songName">Star Boy</span>
+                    <span class="songlistplay"><span class="timestamp">05:45 <i id="2"
+                                class="fa-regular songitemplay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="images/cover1.jpg" alt="">
+                    <span class="songName">Star Boy</span>
+                    <span class="songlistplay"><span class="timestamp">05:45 <i id="3"
+                                class="fa-regular songitemplay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="images/cover1.jpg" alt="">
+                    <span class="songName">Star Boy</span>
+                    <span class="songlistplay"><span class="timestamp">05:45 <i id="4"
+                                class="fa-regular songitemplay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="images/cover1.jpg" alt="">
+                    <span class="songName">Star Boy</span>
+                    <span class="songlistplay"><span class="timestamp">05:45 <i id="5"
+                                class="fa-regular songitemplay fa-circle-play"></i></span></span>
+                </div>
+            </div>
+        </div>
+        <div class="song-banner"></div>
+    </div>
+    <div class="bottom">
+        <input type="range" name="range" id="myprogressbar" value="0" min="0" max="100">
+        <div class="icons">
+            <!-- fontawesome -->
+            <i class="fa-solid fa-2x fa-backward-step" id="previous"></i>
+            <i class="fa-regular fa-2x fa-circle-play" id="masterplay"></i>
+            <i class="fa-solid fa-2x fa-forward-step" id="next"></i>
+        </div>
+        <div class="songinfo">
+            <img src="images/5uwq.gif" alt="" width="40px" id="gif"> <span id="masterSongName">lover</span>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/028b8c0905.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
